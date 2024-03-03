@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>쇼핑상세보기</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--글꼴이 적용 안됨-->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Gill+Sans+MT+Pro+Medium&family=Noto+Sans+KR:wght@500&family=Nanum+Barun+Gothic&family=Dotum&family=AppleGothic">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="category">
+        <a href="#">
+            <h2><img src="img/pokemon_Logo.png" alt=""></h2>
+        </a>
+        <ul>
+            <li><a href="#">전체 상품</a></li>
+            <li><a href="#">피규어</a></li>
+            <li><a href="#">만화</a></li>
+            <li><a href="#">포토카드</a></li>
+        </ul>
+    </div>
+    <div class="product_view">
+        <h2>포켓몬센터 한 송이 꽃병 MIMOSA e POKÉMON 피카츄</h2>
+        <table>
+            <caption>
+                <details class="hide">
+                    <summary>상품정보</summary>
+                    판매가, 상품코드, 옵션 및 결제금액 안내
+                </details>
+            </caption>
+            <colgroup>
+                <col style="width:173px;">
+                <col>
+            </colgroup>
+            <tbody>
+            <tr>
+                <th>판매가</th>
+                <td class="price">60,000</td>
+            </tr>
+            <tr>
+                <th>상품코드</th>
+                <td>AAA111</td>
+            </tr>
+            <tr>
+                <th>제조사/공급사</th>
+                <td>Nintendo / @POKÉMON</td>
+            </tr>
+            <tr>
+                <th>구매수량</th>
+                <td>
+                    <div class="length">
+                        <label>
+                            <input id="quantityInput" type="number" min="1" value="1">
+                        </label>
+                        <a href="#a" id="increaseQuantity">증가</a>
+                        <a href="#a" id="decreaseQuantity">감소</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>사용가능쿠폰</th>
+                <td>0개</td>
+            </tr>
+            <tr>
+                <th>옵션선택</th>
+                <td>
+                    <label>
+                        <select>
+                            <option value="0">기본(+0)</option>
+                            <option value="10000">선물포장(+10000)</option>
+                            <option value="20000">포토카드증정(+20000)</option>
+                            <option value="25000">선물+포토카드(+25000)</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <th>배송비</th>
+                <td>무료배송</td>
+            </tr>
+            <tr>
+                <th>결제금액</th>
+                <td class="total"><b id="totalAmount">60,000</b>원</td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="img">
+            <img src="img/pokemon_one_flower_01.png" alt="">
+            <ul class="flower-list">
+                <li><a href="#a" class="on"><img src="img/pokemon_one_flower_01.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_02.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_03.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_04.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_05.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_06.png" alt=""></a></li>
+                <li><a href="#a"><img src="img/pokemon_one_flower_07.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <a href="shoppingBasket.html" class="btnBasket">장바구니</a>
+            <a href="purchase.html" class="btnPurchase">구매하기</a>
+        </div>
+    </div>
+</div>
+<div class="explainProduct">
+    <img src="img/pokemon_one_flower_01.png" alt="">
+    <img src="img/pokemon_one_flower_02.png" alt="">
+    <img src="img/pokemon_one_flower_08.png" alt="">
+    <img src="img/pokemon_one_flower_09.png" alt="">
+    <img src="img/pokemon_one_flower_10.png" alt="">
+    <img src="img/pokemon_one_flower_11.png" alt="">
+</div>
+<div id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+</body>
+</html>
