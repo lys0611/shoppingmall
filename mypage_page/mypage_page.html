@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<div id="topList">
+    <div class="topSch">
+    </div>
+
+    <div class="topMenu">
+        <a href="main.html" class="log">LOGOUT</a>
+        <a href="mypage_page.html">MY ACCOUNT</a>
+        <a href="basket.html" class="cart"><img src="img/shopping_bag.png" alt=""></a>
+    </div>
+</div>
+
+<div class="topLogo">
+    <a href="main.html" class="cart"><img src="img/pokemon_Logo.png" alt=""></a>
+</div>
+
+<div class="path">
+</div>
+<div class="titleArea">
+    <h2>my page</h2>
+</div>
+
+<div class="information">
+    <div class="description">
+        <span> <strong><span>???</span></strong> 님은 <strong>[??????? ???????]</strong> 회원이십니다.</span>
+        <p> fasfasfasfasfjiwjiwjfwfislfkdsf k pokfwfs ofkop kfsd  fas </p>
+        <p> fasfasfasfasfjiwjiwjfwfislfkdsf k pokfwfs ofkop kfsd  fas </p>
+        <div class=" gBlank5" id="sGradeAutoDisplayArea">
+            <p class="txtInfo txt11">승급 기준에 따른 예상 금액이므로 총주문 금액과 다를 수 있습니다.</p>
+        </div>
+    </div>
+</div>
+
+<div class="orderstate "><div class="title">
+    <h3>나의 주문처리 현황 <span class="desc">(최근 <em>3개월</em> 기준)</span>
+    </h3>
+</div>
+    <div class="state">
+        <ul class="order">
+            <li>
+                <strong>배송준비중</strong> <br><br>
+                <a href="/myshop/order/list.html?order_status=shipped_standby" class="count">
+                    <span id="orderstate_standby_count">0</span></a>
+            </li>
+            <li>
+                <strong>배송중</strong> <br><br>
+                <a href="/myshop/order/list.html?order_status=shipped_begin" class="count">
+                    <span id="orderstate_shppied_begin_count">0</span></a>
+            </li>
+            <li>
+                <strong>배송완료</strong> <br><br>
+                <a href="/myshop/order/list.html?order_status=shipped_complate" class="count">
+                    <span id="orderstate_shppied_complate_count">0</span></a>
+            </li>
+        </ul>
+        <ul class="cs">
+            <li>
+                <span class="icoDot"></span>
+                <strong>취소 : </strong>
+                <span id="myshop_orderstate_order_cancel_count">0</span>
+            </li>
+            <li>
+                <span class="icoDot"></span>
+                <strong>교환 : </strong>
+                <span id="xans_myshop_orderstate_order_exchange_count">0</span>
+            </li>
+            <li>
+                <span class="icoDot"></span>
+                <strong>반품 : </strong>
+               <span id="xans_myshop_orderstate_order_return_count">0</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="shopMain order">
+    <h3><a href="#"><strong>order</strong></a></h3>
+    <!--  주문내역  -->
+    </div>
+
+    <div class="shopMain profile">
+        <h3><a href="#"><strong>profile</strong></a></h3>
+        <!-- 개인정보 관리 -->
+    </div>
+    <div class="shopMain wishlist">
+        <h3><a href="#"><strong>wishlist</strong></a></h3>
+        <!-- 관심상품 -->
+    </div>
+
+    <div class="shopMain consult displaynone">
+        <h3><a href="#"><strong>Q & A</strong></a></h3>
+        <!--  문의사항  -->
+    </div>
+    <div class="shopMain coupon ">
+        <h3><a href="#"><strong>coupon</strong></a></h3>
+        <!--  쿠폰  -->
+    </div>
+
+
+
+
+<!--
+<div id="footer">
+    <div class="ft_sect">
+        <ul><li><a href="#">SNAP</a></li>
+            <li><a href="#">OFFER</a></li>
+        </ul></div>
+
+    <div class="ft_sect">
+        <ul><li><a href="#">DELIVERY &amp; RETURNS</a></li>
+            <li><a href="#">TERMS &amp; CONDITIONS</a></li>
+            <li><a href="#">PRIVACY / COOKIES</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">Q&amp;A</a></li>
+        </ul>
+    </div>
+
+    <div class="ft_sect"><ul>
+        <li>(주)슬로우스탠다드 | CEO.Son Junho | Business License. [178-86-01188]</li>
+        <li class="">On-Line Register. 제 2018-의정부송신-0204호
+            <a href="#" onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1788601188', 'bizCommPop', 'width=750, height=950;');return false;">[사업자정보확인]</a>
+            | 개인정보관리책임자 <a href="mailto:lafudgestore@naver.com">손준호</a>
+        </li>
+        <li>11813 경기도 의정부시 오목로225번길 94 (민락동) 시와이파크</li>
+        <li class="">031-541-4843 | lafudgestore@naver.com</li>
+        <li>MON - FRI / 11AM - 5PM
+            SAT.SUN.HOLIDAY OFF
+         </li>
+        <li class="copy">Copyright © 2019 La Fudge Store. All Rights Reserved.</li>
+    </ul>
+    </div>
+</div>
+-->
+</body>
+</html>
