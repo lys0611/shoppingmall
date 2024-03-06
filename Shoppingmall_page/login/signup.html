@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login-script.js">
+</head>
+<body>
+<div class="page-hdr-signup">
+    <h2>회원 가입</h2>
+    <form method="post" action="서버의url" id="login-form">
+            <input id="id" type="text" placeholder="아이디 (이메일주소)" required>
+            <input id="ps" type="password" class="mtop-10" placeholder="패스워드" required>
+            <input id="ps2" type="password" class="mtop-10" placeholder="패스워드(확인)" required>
+            <input id="name" type="text" class="mtop-10" placeholder="이름" required>
+            <input id="phone-num" type="text" class="mtop-10" placeholder="전화번호" required>
+            <input type="submit" class="mtop-20" value="회원가입하기" onclick="signup()">
+    </form>
+    </div>
+</body>
+</html>

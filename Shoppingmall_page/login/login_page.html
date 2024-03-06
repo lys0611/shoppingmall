@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login_page</title>
+    <!--  커스텀 css, js 연결  -->
+    <script defer src="login-script.js"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="page-hdr-login">
+    <h2>Login</h2>
+    <form method="post" action="서버의url" id="login-form">
+        <input id="id" type="text" name="userName" placeholder="Email" required>
+        <input id="ps" type="password" name="userPassword" placeholder="Password" required>
+        <label for="remember-check">
+            <input type="checkbox" id="remember-check">아이디 저장하기
+        </label>
+        <a href="id-search.html"><div class="button-idps">forgot id?</div></a>
+        <a href="ps-search.html"><div class="button-idps">forgot ps?</div></a>
+        <a href="signup.html"><div class="button-idps">회원 가입하기</div></a>
+        <input type="submit" value="Login" onclick="login()">
+    </form>
+</div>
+</body>
+</html>
