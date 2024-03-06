@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ps-search</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login-script.js">
+</head>
+<body>
+<div class="page-hdr-ps-search">
+    <h2>비밀번호 찾기</h2>
+    <form method="post" action="서버의url" id="login-form">
+        <input id="id" type="text" class="mtop-10" placeholder="아이디(이메일)" required>
+        <input id="name" type="text" class="mtop-10" placeholder="이름" required>
+        <input id="phone-num" type="text" class="mtop-10" placeholder="전화번호" required>
+        <!-- 버튼 클릭시 아이디, 이름, 전화번호를 받아 저장된 id와 대조하여 id-이름-전화번호가 같은 계정의 ps를 출력되게 할 것 -->
+        <input type="submit" class="mtop-20" value="확인" onclick="pssearch()">
+    </form>
+</div>
+</body>
+</html>
