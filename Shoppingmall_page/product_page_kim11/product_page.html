@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>쇼핑상세보기</title>
@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="product_view">
-        <h2>포켓몬센터 한 송이 꽃병 MIMOSA e POKÉMON 피카츄</h2>
+        <h2 id="productName"></h2>
         <table>
             <caption>
                 <details class="hide">
@@ -40,12 +40,12 @@
             </colgroup>
             <tbody>
             <tr>
-                <th>판매가</th>
-                <td class="price">60,000</td>
+                    <th>판매가</th>
+                <td class="price" id="productPrice"></td>
             </tr>
             <tr>
                 <th>상품코드</th>
-                <td>AAA111</td>
+                <td id="productCode"></td>
             </tr>
             <tr>
                 <th>제조사/공급사</th>
@@ -122,3 +122,4 @@
 
 </body>
 </html>
+<script src="js/product.js"></script>
