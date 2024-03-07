@@ -21,56 +21,38 @@ body{
 .mbot-20 { margin-bottom: 20px; }
 .mbot-30 { margin-bottom: 30px; }
 
-.page-hdr-login{
+.page-hdr{
     width: 400px;
     height: 400px;
     padding: 40px;
     box-sizing: border-box;
     text-align: center;
-    margin: 0 auto;
+    margin: 10% auto;
     border: 2px solid #9fa0a1;
     border-radius: 10%;
 }
-.page-hdr-signup{
-    width: 400px;
+
+.login {
+    height: 400px;
+    margin: 10% auto;
+}
+
+.signup{
     height: 550px;
-    padding: 40px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    border: 2px solid #9fa0a1;
-    border-radius: 10%;
+    margin: 10% auto;
 }
 
-.page-hdr-id-search{
-    width: 400px;
+.id-search{
     height: 320px;
-    padding: 40px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    border: 2px solid #9fa0a1;
-    border-radius: 10%;
+    margin: 10% auto;
 }
 
-.page-hdr-ps-search{
-    width: 400px;
+.ps-search{
     height: 400px;
-    padding: 40px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
-    border: 2px solid #9fa0a1;
-    border-radius: 10%;
+    margin: 10% auto;
 }
 
-.page-hdr-login > h2{
-    font-size: 24px;
-    color: #9fa0a1;
-    margin-bottom: 20px;
-}
-
-.page-hdr-signup > h2{
+.page-hdr > h2{
     font-size: 24px;
     color: #9fa0a1;
     margin-bottom: 20px;
