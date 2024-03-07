@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
 
     // 수량 증가 및 감소
@@ -97,4 +98,5 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0;
     });
+
 });
