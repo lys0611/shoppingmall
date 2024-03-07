@@ -1,3 +1,28 @@
+let userData = {
+    "id": "abc123",
+    "password": "abc123",
+    "name": "홍길동",
+    "email": "abc123@gmail.com",
+    "address": "서울시 노원구 중계동",
+    "phoneNum": "01012345678"
+}
+//
+// function idSearch() {
+//     let inputName = document.getElementById('name').value;
+//     let inputPhone = document.getElementById('phone-num').value;
+//
+//     if (inputName === userData.name && inputPhone === userData.phoneNum) {
+//         // 일치하면 해당 사용자의 ID를 출력
+//         alert("찾으시는 아이디는 " + userData.id + "입니다.");
+//     } else {
+//         // 일치하지 않으면 메시지 출력
+//         alert("일치하는 계정이 없습니다. 다시 확인해주세요.");
+//     }
+// }
+
+
+
+
 // login 예시
 // function login(){
 //     var id = $("#id").val().trim();
