@@ -1,3 +1,9 @@
+
+function login() {
+    var userInput = document.getElementById()
+}
+
+
 // login 예시
 // function login(){
 //     var id = $("#id").val().trim();
