@@ -1,7 +1,10 @@
 
 function login() {
-    var userInput = document.getElementById()
+    var userInput = document.getElementById("id").value;
+
+    if()
 }
+
 
 
 // login 예시
