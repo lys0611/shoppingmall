@@ -1,0 +1,84 @@
+body {
+    overflow: scroll;
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+input {
+    width: 550px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.login {
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 221px;
+    font-size: 16px;
+    font-family: "Gothic A1";
+}
+
+.fix {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.main1, .main2 {
+    padding-top: 25px;
+    font-family: "Gothic A1";
+}
+
+.search {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.searchPicture {
+    position : absolute;
+    width: 20px;
+    top: 20px;
+    right: 12px;
+}
+
+.basket {
+    position: absolute;
+    left: 1350px;
+    top: 67px;
+}
+
+.my_page {
+    position: absolute;
+    left: 1421px;
+    top: 67px;
+}
+
+.time_sale {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: #9ec5fe;
+}
+
+.title {
+    margin-top: 70px;
+    margin-left: 27px;
+    font-size: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.product {
+    width: 288px;
+    height: 320px;
+    margin: 24px;
+    border: 1px solid black;
+}
